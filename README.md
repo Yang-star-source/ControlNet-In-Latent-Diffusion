@@ -62,3 +62,5 @@ If you used the ideas from ControlNet in this project, please cite the original 
   year={2023}
 }
 ```
+
+[OpenCV Edge Detection](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html)
