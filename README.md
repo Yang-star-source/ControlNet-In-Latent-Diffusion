@@ -1,5 +1,5 @@
 # ControlNet-In-Latent-Diffusion
-Apply ControlNet on Latent Diffusion is to guide model to generate desired style of images. The condition used in this repo is Canny Map. Which generate by OpenCV edge detection.
+Apply ControlNet on Latent Diffusion is to guide model to generate desired style of images. The condition used in this repo is Canny Map which generate by OpenCV edge detection.
 
 <p>
   <img src="images/sample1.png" width="600" title="Sample Result">
