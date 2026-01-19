@@ -31,3 +31,17 @@ For training code :
 For Inference Mode (One Click Run Ctrl+F9):
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Inference_Mode.ipynb)
+
+## Dataset 
+```bibtex
+@inproceedings{choi2020starganv2,
+  title={StarGAN v2: Diverse Image Synthesis for Multiple Domains},
+  author={Yunjey Choi and Youngjung Uh and Jaejun Yoo and Jung-Woo Ha},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}
+}
+```
+
+[Dataset from Kaggle](https://www.kaggle.com/datasets/andrewmvd/animal-faces)
+
+[CATS , CANNY AND LATENTS](https://huggingface.co/datasets/ziyang06315/cats_images_dataset/tree/main)
