@@ -23,6 +23,12 @@ Build ControlNet from scratch based on pretrained Latent Diffusion
   <img src="images/flowchart1.png" width="600" title="Flow Chart">
 </p>
 
+## Pre-trained Latent Diffusion (Unconditional)
+
+This repo applied ControlNet on previous prebuilt Latent Diffusion from Scratch (Unconditional)
+
+[Latent Diffusion From Scratch](https://github.com/Yang-star-source/Latent_Diffusion_From_Scratch)
+
 ## Codes Implementation
 For training code :
 
