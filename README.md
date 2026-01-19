@@ -1,5 +1,5 @@
 # ControlNet-In-Latent-Diffusion
-Build ControlNet from scratch based on pretrained Latent Diffusion
+Apply ControlNet on Latent Diffusion is to guide model to generate desired-style of images, single condition used in this repo is canny map.
 
 <p>
   <img src="images/sample1.png" width="600" title="Sample Result">
