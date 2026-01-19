@@ -8,17 +8,13 @@ Apply ControlNet on Latent Diffusion is to guide model to generate desired style
 </p>
 
 ## Architecture
-
+```
 **Z** : Noisy Latent , time embedding
-
 **X**: a copy of z
-
 **C** : condition , cat's canny map were used in this training
-
 **Blue Block** : Freeze during training
-
 **Green Block**: Trainable
-
+```
 <p>
   <img src="images/flowchart1.png" width="600" title="Flow Chart">
 </p>
@@ -51,3 +47,15 @@ For Inference Mode (One Click Run Ctrl+F9):
 [Dataset from Kaggle](https://www.kaggle.com/datasets/andrewmvd/animal-faces)
 
 [CATS , CANNY AND LATENTS](https://huggingface.co/datasets/ziyang06315/cats_images_dataset/tree/main)
+
+## Reference
+
+```bibtex
+@inproceedings{zhang2023adding,
+  title={Adding Conditional Control to Text-to-Image Diffusion Models},
+  author={Zhang, Lvmin and Rao, Anyi and Agrawala, Maneesh},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3836--3847},
+  year={2023}
+}
+```
