@@ -8,6 +8,13 @@ Build ControlNet from scratch based on pretrained Latent Diffusion
 </p>
 
 ## Architecture
+'''
+z : Noisy Latent , time embedding
+x : a copy of z
+C : condition , cat's canny map were used in this training
+Blue Block : Freeze during training
+Green Block: Trainable
+'''
 <p>
   <img src="images/flowchart1.png" width="600" title="Flow Chart">
 </p>
