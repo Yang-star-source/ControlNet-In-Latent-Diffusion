@@ -1,5 +1,7 @@
 # ControlNet-In-Latent-Diffusion
-Apply ControlNet on Latent Diffusion is to guide model to generate desired style of images. The condition used in this repo is Canny Map which generate by OpenCV edge detection.
+This repository contains a manual implementation of ControlNet applied to a Latent Diffusion Model (LDM), built entirely from scratch in PyTorch. Unlike standard implementations that rely on high-level libraries like ```diffusers```, this project engineers the U-Net, Scheduler, and ControlNet architecture manually to demonstrate a deep understanding of the underlying mathematics and tensor operations.
+
+The model is trained to generate realistic cat images guided by **Canny Edge Maps**.
 
 <p>
   <img src="images/sample1.png" width="600" title="Sample Result">
