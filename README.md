@@ -9,11 +9,11 @@ Apply ControlNet on Latent Diffusion is to guide model to generate desired style
 
 ## Architecture
 ```
-**Z** : Noisy Latent , time embedding
-**X**: a copy of z
-**C** : condition , cat's canny map were used in this training
-**Blue Block** : Freeze during training
-**Green Block**: Trainable
+Z : Noisy Latent , time embedding
+X: a copy of z
+C : condition , cat's canny map were used in this training
+Blue Block : Freeze during training
+Green Block: Trainable
 ```
 <p>
   <img src="images/flowchart1.png" width="600" title="Flow Chart">
@@ -35,6 +35,8 @@ For Inference Mode (One Click Run Ctrl+F9):
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Inference_Mode.ipynb)
 
 ## Dataset 
+If you use this dataset in your research, please credit the authors
+
 ```bibtex
 @inproceedings{choi2020starganv2,
   title={StarGAN v2: Diverse Image Synthesis for Multiple Domains},
