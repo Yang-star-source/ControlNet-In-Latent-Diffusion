@@ -25,7 +25,9 @@ Build ControlNet from scratch based on pretrained Latent Diffusion
 
 ## Codes Implementation
 For training code :
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Training.ipynb)
 
-For Inference Mode (One Click Run):
+For Inference Mode (One Click Run Ctrl+F9):
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Inference_Mode.ipynb)
