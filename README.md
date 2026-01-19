@@ -49,6 +49,7 @@ For Inference Mode (One Click Run Ctrl+F9):
 [CATS , CANNY AND LATENTS](https://huggingface.co/datasets/ziyang06315/cats_images_dataset/tree/main)
 
 ## Reference
+If you used the ideas from ControlNet in this project, please cite the original paper:
 
 ```bibtex
 @inproceedings{zhang2023adding,
