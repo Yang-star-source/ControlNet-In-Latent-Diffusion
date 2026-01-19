@@ -10,8 +10,8 @@ Apply ControlNet on Latent Diffusion is to guide model to generate desired style
 ## Architecture
 ```
 Z : Noisy Latent , time embedding
-X: a copy of z
-C : condition , cat's canny map were used in this training
+X : A copy of z
+C : Condition , cat's canny map were used in this training
 Blue Block : Freeze during training
 Green Block: Trainable
 ```
