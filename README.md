@@ -1,10 +1,9 @@
 # ControlNet-In-Latent-Diffusion
-This repository contains a manual implementation of ControlNet applied to an unconditional image generation model , Latent Diffusion Model (LDM), built entirely from scratch in PyTorch. This project engineers the U-Net, Scheduler, and ControlNet architecture manually to demonstrate a deep understanding of the underlying mathematics and tensor operations.
+This repository contains a manual implementation of ControlNet applied to an image generation model , Latent Diffusion Model (LDM), built entirely from scratch in PyTorch.
 
 The model is trained to generate realistic cat images guided by **Canny Edge Maps**.
 
 |![Cat Grid 1](images/sample1.png)|![Cat Grid 2](images/T2ISample1.png)|
-|![Cat Grid 1](images/sample2.png)|![Cat Grid 2](images/T2ISample2.png)|
 | :---: | :---: |
 | **Unconditional Image Generation** | **Prompt : A cute orange cat with green eyes** |
 
@@ -20,9 +19,9 @@ Green Block: Trainable
   <img src="images/flowchart1.png" width="600" title="Flow Chart">
 </p>
 
-## Pre-trained Latent Diffusion (Unconditional)
+## Pre-trained Latent Diffusion 
 
-This repo applied ControlNet on previous prebuilt Latent Diffusion from Scratch (Unconditional)
+This repo applied ControlNet on previous prebuilt Latent Diffusion Model from Scratch 
 
 [Latent Diffusion From Scratch](https://github.com/Yang-star-source/Latent_Diffusion_From_Scratch)
 
