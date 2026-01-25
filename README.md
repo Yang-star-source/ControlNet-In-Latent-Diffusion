@@ -84,9 +84,9 @@ If you use this dataset in your research, please credit the authors
 }
 ```
 
-[Dataset from Kaggle](https://www.kaggle.com/datasets/andrewmvd/animal-faces)
+* **Dataset** -[Kaggle](https://www.kaggle.com/datasets/andrewmvd/animal-faces)
 
-[CATS , CANNY AND LATENTS](https://huggingface.co/datasets/ziyang06315/cats_images_dataset/tree/main)
+* **Processed data** -[Hugging Face](https://huggingface.co/datasets/ziyang06315/cats_images_dataset/tree/main)
 
 ## Reference
 If you used the ideas from ControlNet in this project, please cite the original paper:
@@ -101,4 +101,5 @@ If you used the ideas from ControlNet in this project, please cite the original 
 }
 ```
 
-[OpenCV Edge Detection](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html)
+* **CLIP Embedding Documentation** -[Hugging Face](https://huggingface.co/docs/transformers/model_doc/clip)
+* **OpenCV Edge Detection** -[Documentation](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html)
