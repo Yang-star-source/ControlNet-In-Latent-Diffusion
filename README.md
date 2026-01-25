@@ -3,11 +3,16 @@ This repository contains a manual implementation of ControlNet applied to an ima
 
 The model is trained to generate realistic cat images guided by **Canny Edge Maps**.
 
-
-
-| ![Cat Grid 1](images/sample1.png) | ![Cat Grid 2](images/T2ISample1.png) |
-| :---: | :---: |
-| **Without Prompt** | **Prompt: A cute orange cat with green eyes** |
+<table width="100%">
+  <tr>
+    <td align="center"><img src="images/sample1.png" width="100%"></td>
+    <td align="center"><img src="images/T2ISample1.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Without Prompt</b></td>
+    <td align="center"><b>Prompt: A cute orange cat with green eyes</b></td>
+  </tr>
+</table>
 
 ## Architecture
 ```
