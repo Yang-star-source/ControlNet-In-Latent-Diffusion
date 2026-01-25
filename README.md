@@ -39,24 +39,35 @@ This repo applied ControlNet on previous prebuilt Latent Diffusion Model from Sc
 ## Codes Implementation
 
 <table width="100%">
-  <tr><td>ControlNet</td> <td>Unconditional LDM</td> <td> T2I LDM</td></tr>
   <tr>
-    <td>Training</td>
-    <td>
-      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Training.ipynb)
+    <th align="center">ControlNet</th>
+    <th align="center">Unconditional LDM</th>
+    <th align="center">T2I LDM</th>
+  </tr>
+  <tr>
+    <td><b>Training</b></td>
+    <td align="center">
+      <a href="https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Training.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+      </a>
     </td>
-    <td>
-      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Training.ipynb)
+    <td align="center">
+      <a href="https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Training.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+      </a>
     </td>
   </tr>
-
   <tr>
-    <td>Inference</td>
-    <td>
-      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Inference.ipynb)
+    <td><b>Inference</b></td>
+    <td align="center">
+      <a href="https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Inference.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+      </a>
     </td>
-    <td>
-      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Inference.ipynb)
+    <td align="center">
+      <a href="https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Inference.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+      </a>
     </td>
   </tr>
 </table>
