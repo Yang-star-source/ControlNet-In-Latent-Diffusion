@@ -27,7 +27,7 @@ Blue Block : Freeze during training
 Green Block: Trainable
 ```
 <p>
-  <img src="images/flowchart1.png" width="600" title="Flow Chart">
+  <img src="images/T21CNFlowChart.png" width="600" title="Flow Chart">
 </p>
 
 ## Pre-trained Latent Diffusion 
@@ -37,13 +37,29 @@ This repo applied ControlNet on previous prebuilt Latent Diffusion Model from Sc
 [Latent Diffusion From Scratch](https://github.com/Yang-star-source/Latent_Diffusion_From_Scratch)
 
 ## Codes Implementation
-For training code :
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Training.ipynb)
+<table width="100%">
+  <tr><td>ControlNet</td> <td>Unconditional LDM</td> <td> T2I LDM</td></tr>
+  <tr>
+    <td>Training</td>
+    <td>
+      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Training.ipynb)
+    </td>
+    <td>
+      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Training.ipynb)
+    </td>
+  </tr>
 
-For Inference Mode (One Click Run Ctrl+F9):
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_In_Latent_Diffusion_Inference_Mode.ipynb)
+  <tr>
+    <td>Inference</td>
+    <td>
+      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_Unconditional_LDM_Inference.ipynb)
+    </td>
+    <td>
+      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/ControlNet-In-Latent-Diffusion/blob/main/ControlNet_T2I_LDM_Inference.ipynb)
+    </td>
+  </tr>
+</table>
 
 ## Dataset 
 If you use this dataset in your research, please credit the authors
