@@ -1,5 +1,5 @@
 # ControlNet-In-Latent-Diffusion
-This repository contains a manual implementation of ControlNet applied to an image generation model , Latent Diffusion Model (LDM), built entirely from scratch in PyTorch.
+This repository contains a manual implementation of ControlNet applied to both Unconditional and Text-to-Image(T2I) Latent Diffusion Model(LDM), built entirely from scratch in PyTorch.
 
 The model is trained to generate realistic cat images guided by **Canny Edge Maps**.
 
