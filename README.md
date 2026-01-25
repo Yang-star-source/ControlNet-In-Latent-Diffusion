@@ -3,11 +3,11 @@ This repository contains a manual implementation of ControlNet applied to an unc
 
 The model is trained to generate realistic cat images guided by **Canny Edge Maps**.
 
-<p>
-  <img src="images/sample1.png" width="600" title="Sample Result">
-  <img src="images/sample2.png" width="600" title="Sample Result">
-  <img src="images/sample3.png" width="600" title="Sample Result">
-</p>
+|![Cat Grid 1](images/sample1.png)|![Cat Grid 2](images/T21Sample1.png)|
+| :---: | :---: |
+|![Cat Grid 3](images/sample2.png)|![Cat Grid 4](images/T21Sample2.png)|
+| :---: | :---: |
+| **Unconditional Image Generation** | **Prompt : A cute orange cat with green eyes** |
 
 ## Architecture
 ```
