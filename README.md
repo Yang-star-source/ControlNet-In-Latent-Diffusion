@@ -5,8 +5,12 @@ The model is trained to generate realistic cat images guided by **Canny Edge Map
 
 <table width="100%">
   <tr>
-    <td align="center"><img src="images/sample1.png" width="100%"></td>
-    <td align="center"><img src="images/T2ISample1.png" width="100%"></td>
+    <td align="center" width="50%">
+      <img src="images/sample1.png" height="200px">
+    </td>
+    <td align="center" width="50%">
+      <img src="images/T2ISample1.png" height="200px">
+    </td>
   </tr>
   <tr>
     <td align="center"><b>Without Prompt</b></td>
